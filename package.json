@@ -1,0 +1,21 @@
+{
+  "name": "credit-agricole-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to fetch data from Credit Agricole",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:stdio": "node index.js --mode=stdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "js-creditagricole-particuliers": "^1.0.7"
+  }
+}
